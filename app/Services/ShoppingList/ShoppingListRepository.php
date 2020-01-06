@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Services;
+namespace Grocelivery\ShoppingLists\Services\ShoppingList;
 
 use Grocelivery\ShoppingLists\Models\ShoppingList;
 use Grocelivery\Utils\Clients\GeolocalizerClient;
@@ -10,7 +10,7 @@ use Illuminate\Support\Collection;
 
 /**
  * Class ShoppingListRepository
- * @package Grocelivery\ShoppingLists\Services
+ * @package Grocelivery\ShoppingLists\Services\ShoppingList
  */
 class ShoppingListRepository
 {
@@ -70,5 +70,32 @@ class ShoppingListRepository
         return ShoppingList::query()
             ->whereIn('location_id', $pointIds)
             ->get();
+    }
+
+    /**
+     * @param string $userId
+     * @param string $id
+     * @return bool
+     */
+    public function isCustomerOf(string $userId, string $id): bool
+    {
+        return ShoppingList::query()
+            ->where('id', $id)
+            ->where('customer_id', $userId)
+            ->exists();
+    }
+
+    /**
+     * @param string $id
+     * @param string $contractorId
+     * @return bool
+     */
+    public function hasConversation(string $id, string $contractorId): bool
+    {
+        $shoppingList = $this->getById($id);
+
+        return $shoppingList->conversations()
+            ->where('contractor_id', $contractorId)
+            ->exists();
     }
 }

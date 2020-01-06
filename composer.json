@@ -7,7 +7,10 @@
         "ext-json": "*",
         "doctrine/dbal": "^2.10",
         "grocelivery/utils": "~v1.1.0",
+        "illuminate/redis": "^6.8",
         "laravel/lumen-framework": "^6.0",
+        "predis/predis": "^1.1",
+        "pusher/pusher-php-server": "^4.1",
         "ramsey/uuid": "^3.9"
     },
     "require-dev": {

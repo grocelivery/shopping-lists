@@ -2,18 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Http\Controllers;
+namespace Grocelivery\ShoppingLists\Http\Controllers\ShoppingList;
 
 use Grocelivery\ShoppingLists\Http\Requests\NearbyShoppingLists;
 use Grocelivery\ShoppingLists\Http\Resources\NearbyShoppingListResource;
-use Grocelivery\ShoppingLists\Http\Resources\ShoppingListResource;
-use Grocelivery\ShoppingLists\Models\ShoppingList;
 use Grocelivery\Utils\Interfaces\JsonResponseInterface;
-use Grocelivery\Utils\Requests\FormRequest;
 
 /**
  * Class Search
- * @package Grocelivery\ShoppingLists\Http\Controllers
+ * @package Grocelivery\ShoppingLists\Http\Controllers\ShoppingList
  */
 class Search extends RepositoryController
 {

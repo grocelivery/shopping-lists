@@ -2,6 +2,7 @@
 
 namespace Grocelivery\ShoppingLists\Http\Controllers;
 
+use Grocelivery\ShoppingLists\Events\ExampleEvent;
 use Grocelivery\Utils\Interfaces\JsonResponseInterface;
 use Grocelivery\Utils\Responses\JsonResponse;
 use Laravel\Lumen\Routing\Controller as BaseController;

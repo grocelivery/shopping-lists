@@ -33,6 +33,7 @@ if (class_exists('Laravel\Tinker\TinkerServiceProvider')) {
 $app->register(Grocelivery\Utils\Providers\UtilsServiceProvider::class);
 
 $app->configure('app');
+$app->configure('broadcasting');
 $app->configure('grocelivery');
 
 return $app;

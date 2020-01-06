@@ -2,13 +2,17 @@
 
 use Laravel\Lumen\Routing\Router;
 
-const UUID = '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}';
-
 /** @var Router $router */
-$router->get('/', 'Controller@getInfo');
+$router->post('/', 'Controller@getInfo');
 
 $router->group(['middleware' => 'auth'], function () use ($router): void {
-    $router->post('/', 'Create@create');
-    $router->get('/nearby', 'Search@nearby');
-    $router->get('/{id}', 'Show@show');
+    $router->post('/', 'ShoppingList\Create@create');
+    $router->get('/nearby', 'ShoppingList\Search@nearby');
+    $router->get('/{id}', 'ShoppingList\Show@show');
+
+    $router->post('/{shoppingListId}/conversation', 'Conversation\ConversationController@create');
+    $router->post('/conversation/{id}/message', 'Conversation\ConversationController@postMessage');
+    $router->get('/conversation/{id}', 'Conversation\ConversationController@show');
+
+    $router->post('/broadcast/auth', 'Broadcast\AuthController@auth');
 });
