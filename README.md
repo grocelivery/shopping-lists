@@ -24,12 +24,12 @@ docker-compose up -d
 
 Uruchomienie migracji bazodanowych
 ```
-docker container exec ads-catalog-fpm php artisan migrate
+docker container exec ads-catalog-php-fpm php artisan migrate
 ```
 
 Wygenerowanie klientów OAuth
 ```
-docker container exec idp-php-fpm php artisan passport:install
+docker container exec ads-catalog-php-fpm php artisan passport:install
 ```
 
 ### Po skonfigurowaniu aplikacja powinna być dostępna na:
