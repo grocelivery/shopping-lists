@@ -4,4 +4,4 @@ default:
       paths:
         - "features"
       contexts:
-        - Grocelivery\ShoppingLists\Tests\Contexts\FeatureContext
+        - Grocelivery\AdsCatalog\Tests\Contexts\FeatureContext

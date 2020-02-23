@@ -1,6 +1,6 @@
 <?php
 
-namespace Grocelivery\ShoppingLists\Http\Controllers;
+namespace Grocelivery\AdsCatalog\Http\Controllers;
 
 use Grocelivery\Utils\Interfaces\JsonResponseInterface;
 use Grocelivery\Utils\Responses\JsonResponse;
@@ -8,7 +8,7 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 
 /**
  * Class Controller
- * @package Grocelivery\ShoppingLists\Http\Controllers
+ * @package Grocelivery\AdsCatalog\Http\Controllers
  */
 class Controller extends BaseController
 {

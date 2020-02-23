@@ -1,5 +1,5 @@
 {
-    "name": "grocelivery/shopping-lists",
+    "name": "grocelivery/ads-catalog",
     "description": "Shopping list ads manager.",
     "type": "project",
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Grocelivery\\ShoppingLists\\": "app/"
+            "Grocelivery\\AdsCatalog\\": "app/"
         }
     },
     "autoload-dev": {

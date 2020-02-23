@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Models;
+namespace Grocelivery\AdsCatalog\Models;
 
 use Grocelivery\Utils\Traits\UsesUuid;
 use Illuminate\Database\Eloquent\Model;
@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * Class Product
- * @package Grocelivery\ShoppingLists\Models
+ * @package Grocelivery\AdsCatalog\Models
  * @property string $id
  * @property string $shopping_list_id
  * @property string $name

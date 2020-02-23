@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Http\Controllers;
+namespace Grocelivery\AdsCatalog\Http\Controllers;
 
-use Grocelivery\ShoppingLists\Http\Requests\CreateShoppingList;
-use Grocelivery\ShoppingLists\Http\Resources\ShoppingListResource;
-use Grocelivery\ShoppingLists\Services\ShoppingListCreator;
+use Grocelivery\AdsCatalog\Http\Requests\CreateShoppingList;
+use Grocelivery\AdsCatalog\Http\Resources\ShoppingListResource;
+use Grocelivery\AdsCatalog\Services\ShoppingListCreator;
 use Grocelivery\Utils\Responses\JsonResponse;
 use Grocelivery\Utils\Interfaces\JsonResponseInterface;
 
 /**
  * Class Create
- * @package Grocelivery\ShoppingLists\Http\Controllers
+ * @package Grocelivery\AdsCatalog\Http\Controllers
  */
 class Create extends Controller
 {

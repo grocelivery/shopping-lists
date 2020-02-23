@@ -9,6 +9,6 @@ return [
          ],
     ],
     'geolocalizer' => [
-        'host' => env('GEOLOCALIZER_HOST', 'http://geolocalizer-webserver'),
+        'host' => env('GEOLOCALIZER_HOST', 'http://api.grocelivery.eu/map'),
     ],
 ];

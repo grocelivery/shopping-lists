@@ -1,12 +1,12 @@
 <?php
 
-namespace Grocelivery\ShoppingLists\Tests\Traits;
+namespace Grocelivery\AdsCatalog\Tests\Traits;
 
 use Laravel\Lumen\Application;
 
 /**
  * Trait InitializingApp
- * @package Grocelivery\ShoppingLists\Tests\Traits
+ * @package Grocelivery\AdsCatalog\Tests\Traits
  */
 trait InitializingApp
 {

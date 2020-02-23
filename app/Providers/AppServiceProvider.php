@@ -1,12 +1,12 @@
 <?php
 
-namespace Grocelivery\ShoppingLists\Providers;
+namespace Grocelivery\AdsCatalog\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class AppServiceProvider
- * @package Grocelivery\ShoppingLists\Providers
+ * @package Grocelivery\AdsCatalog\Providers
  */
 class AppServiceProvider extends ServiceProvider
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Http\Resources;
+namespace Grocelivery\AdsCatalog\Http\Resources;
 
 use Grocelivery\Utils\Clients\GeolocalizerClient;
 use Grocelivery\Utils\Resources\JsonResource;
 
 /**
  * Class ShoppingListResource
- * @package Grocelivery\ShoppingLists\Http\Resources
+ * @package Grocelivery\AdsCatalog\Http\Resources
  */
 class ShoppingListResource extends JsonResource
 {

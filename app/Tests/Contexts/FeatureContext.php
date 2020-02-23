@@ -1,18 +1,18 @@
 <?php
 
-namespace Grocelivery\ShoppingLists\Tests\Contexts;
+namespace Grocelivery\AdsCatalog\Tests\Contexts;
 
 use Behat\Behat\Context\Context;
 use PHPUnit\Framework\Assert;
 use Symfony\Component\HttpFoundation\Request;
 use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Gherkin\Node\TableNode;
-use Grocelivery\ShoppingLists\Tests\Traits\InitializingApp;
+use Grocelivery\AdsCatalog\Tests\Traits\InitializingApp;
 use Grocelivery\Utils\Responses\JsonResponse;
 
 /**
  * Class FeatureContext
- * @package Grocelivery\ShoppingLists\Tests\Contexts
+ * @package Grocelivery\AdsCatalog\Tests\Contexts
  */
 class FeatureContext implements Context
 {

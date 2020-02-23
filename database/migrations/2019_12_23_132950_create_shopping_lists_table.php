@@ -17,7 +17,6 @@ class CreateShoppingListsTable extends Migration
         Schema::create('shopping_lists', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->uuid('customer_id');
-            $table->uuid('contractor_id')->nullable();
             $table->string('name');
             $table->text('description');
             $table->dateTime('end_date');

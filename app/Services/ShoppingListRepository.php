@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Services;
+namespace Grocelivery\AdsCatalog\Services;
 
-use Grocelivery\ShoppingLists\Models\ShoppingList;
+use Grocelivery\AdsCatalog\Models\ShoppingList;
 use Grocelivery\Utils\Clients\GeolocalizerClient;
 use Illuminate\Support\Collection;
 
 /**
  * Class ShoppingListRepository
- * @package Grocelivery\ShoppingLists\Services
+ * @package Grocelivery\AdsCatalog\Services
  */
 class ShoppingListRepository
 {

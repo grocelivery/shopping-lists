@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Models;
+namespace Grocelivery\AdsCatalog\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
@@ -11,7 +11,7 @@ use Grocelivery\Utils\Traits\UsesUuid;
 
 /**
  * Class ShoppingList
- * @package Grocelivery\ShoppingLists\Models
+ * @package Grocelivery\AdsCatalog\Models
  * @property string $id
  * @property string $customer_id
  * @property string $contractor_id

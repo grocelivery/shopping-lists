@@ -8,12 +8,12 @@ $app->withEloquent();
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    Grocelivery\ShoppingLists\Exceptions\Handler::class
+    Grocelivery\AdsCatalog\Exceptions\Handler::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    Grocelivery\ShoppingLists\Console\Kernel::class
+    Grocelivery\AdsCatalog\Console\Kernel::class
 );
 
 $app->routeMiddleware([
@@ -21,7 +21,7 @@ $app->routeMiddleware([
 ]);
 
 $app->router->group([
-    'namespace' => 'Grocelivery\ShoppingLists\Http\Controllers',
+    'namespace' => 'Grocelivery\AdsCatalog\Http\Controllers',
 ], function ($router) {
     require __DIR__.'/../routes/api.php';
 });

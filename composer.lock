@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64c93ba4e293b3a8446fa7916184da21",
+    "content-hash": "391d04c72876a255e988dd38ca3ddb32",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -499,16 +499,16 @@
         },
         {
             "name": "grocelivery/utils",
-            "version": "v1.1.5",
+            "version": "v1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grocelivery/utils.git",
-                "reference": "d7ffc3df3770033c12713298a287ca389df7e8c9"
+                "reference": "698ea7297bfdc0c065dd93b67dc90c77c4118df0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grocelivery/utils/zipball/d7ffc3df3770033c12713298a287ca389df7e8c9",
-                "reference": "d7ffc3df3770033c12713298a287ca389df7e8c9",
+                "url": "https://api.github.com/repos/grocelivery/utils/zipball/698ea7297bfdc0c065dd93b67dc90c77c4118df0",
+                "reference": "698ea7297bfdc0c065dd93b67dc90c77c4118df0",
                 "shasum": ""
             },
             "require": {
@@ -544,7 +544,7 @@
                 }
             ],
             "description": "Set of http utility classes",
-            "time": "2019-12-23T20:16:33+00:00"
+            "time": "2020-02-22T19:15:14+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

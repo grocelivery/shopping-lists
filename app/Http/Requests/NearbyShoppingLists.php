@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Http\Requests;
+namespace Grocelivery\AdsCatalog\Http\Requests;
 
 use Grocelivery\Utils\Requests\FormRequest;
 
 /**
  * Class NearbyShoppingLists
- * @package Grocelivery\ShoppingLists\Http\Requests
+ * @package Grocelivery\AdsCatalog\Http\Requests
  */
 class NearbyShoppingLists extends FormRequest
 {

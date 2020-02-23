@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Services;
+namespace Grocelivery\AdsCatalog\Services;
 
-use Grocelivery\ShoppingLists\Models\Product;
-use Grocelivery\ShoppingLists\Models\ShoppingList;
+use Grocelivery\AdsCatalog\Models\Product;
+use Grocelivery\AdsCatalog\Models\ShoppingList;
 use Grocelivery\Utils\Clients\GeolocalizerClient;
 use Grocelivery\Utils\Exceptions\GeolocalizerClientException;
 
 /**
  * Class ShoppingListCreator
- * @package Grocelivery\ShoppingLists\Services
+ * @package Grocelivery\AdsCatalog\Services
  */
 class ShoppingListCreator
 {

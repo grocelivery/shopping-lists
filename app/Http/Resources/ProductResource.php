@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Http\Resources;
+namespace Grocelivery\AdsCatalog\Http\Resources;
 
 use Grocelivery\Utils\Resources\JsonResource;
 
 /**
  * Class ProductResource
- * @package Grocelivery\ShoppingLists\Http\Resources
+ * @package Grocelivery\AdsCatalog\Http\Resources
  */
 class ProductResource extends JsonResource
 {

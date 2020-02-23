@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Grocelivery\ShoppingLists\Http\Controllers;
+namespace Grocelivery\AdsCatalog\Http\Controllers;
 
-use Grocelivery\ShoppingLists\Http\Resources\ShoppingListResource;
-use Grocelivery\ShoppingLists\Models\ShoppingList;
+use Grocelivery\AdsCatalog\Http\Resources\ShoppingListResource;
+use Grocelivery\AdsCatalog\Models\ShoppingList;
 use Grocelivery\Utils\Interfaces\JsonResponseInterface;
 use Grocelivery\Utils\Requests\FormRequest;
 
 /**
  * Class Show
- * @package Grocelivery\ShoppingLists\Http\Controllers
+ * @package Grocelivery\AdsCatalog\Http\Controllers
  */
 class Show extends RepositoryController
 {

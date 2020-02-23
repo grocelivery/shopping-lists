@@ -1,13 +1,13 @@
 <?php
 
-namespace Grocelivery\ShoppingLists\Console;
+namespace Grocelivery\AdsCatalog\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Laravel\Lumen\Console\Kernel as ConsoleKernel;
 
 /**
  * Class Kernel
- * @package Grocelivery\ShoppingLists\Console
+ * @package Grocelivery\AdsCatalog\Console
  */
 class Kernel extends ConsoleKernel
 {

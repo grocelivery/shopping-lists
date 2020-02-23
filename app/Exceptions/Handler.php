@@ -1,6 +1,6 @@
 <?php
 
-namespace Grocelivery\ShoppingLists\Exceptions;
+namespace Grocelivery\AdsCatalog\Exceptions;
 
 use Exception;
 use Grocelivery\Utils\Exceptions\ErrorRenderer;
@@ -13,7 +13,7 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 
 /**
  * Class Handler
- * @package Grocelivery\ShoppingLists\Exceptions
+ * @package Grocelivery\AdsCatalog\Exceptions
  */
 class Handler extends ExceptionHandler
 {
